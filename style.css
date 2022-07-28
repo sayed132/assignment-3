@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,700;1,400&family=Montserrat:wght@500;900&family=Poppins:wght@500&family=Roboto:wght@300;500&display=swap');
+
+body{
+    /* font-family: 'Lobster Two', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+
+    font-family: 'Poppins', sans-serif;
+}
+.my-bg-personal{
+    background-color: #12afe80c;
+}
+.my-logo{
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+}
+.my-nav-menu li a{
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.my-nav-menu li a:hover{
+    transform: scale(1.1);
+    background-color: cadetblue;
+    border-radius: 12px;
+    color: white;
+    
+}
