@@ -10,6 +10,20 @@ body{
 
     font-family: 'Poppins', sans-serif;
 }
+.my-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #DB0B5F;
+    color: white;
+    transition: all 0.5s;
+}
+.my-btn:hover{
+    transform: scale(1.1);
+    background-color: #9424F0;
+    border: none;
+    color: white;
+}
 .my-bg-personal{
     background-color: #12afe80c;
 }
@@ -27,4 +41,17 @@ body{
     border-radius: 12px;
     color: white;
     
+}
+
+.menu-footer div{
+    margin: 0% 2%;
+   
+    border-radius: 100%;
+    transition: all 0.5s;
+    padding: 0.2%;
+}
+.menu-footer div:hover{
+    transform: scale(1.2);
+    background-color: rgba(67, 59, 59, 0.355);
+    color: skyblue;
 }
